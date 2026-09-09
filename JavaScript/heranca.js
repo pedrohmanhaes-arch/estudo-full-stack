@@ -2,11 +2,11 @@
 // Classe: Cão e Passaro
 
 class Animal{//Superclasse - PAI
-     constructor(){
+     constructor(pCor, pTamanho, pPeso){
        console.log("construtor animal")
-      this.cor = ""
-      this.tamanha = 0
-      this.peso = 0 
+      this.cor = pCor
+      this.tamanho = pTamanho
+      this.peso = pPeso
 }
  correr(){
         console.log("correr")
@@ -21,9 +21,9 @@ class Animal{//Superclasse - PAI
 }
 
 class Cao extends Animal{//subclasse - filha
-    constructor(){
-      super()
-      this.tamanhoOrelha = 0
+    constructor(pCor, pTamanho, pPeso,pOrelha){
+      super(pCor, pTamanho, pPeso)
+      this.tamanhoOrelha = pOrelha
     }
     
     correr(){
@@ -38,12 +38,23 @@ class Cao extends Animal{//subclasse - filha
 }
 
 class Passaro extends Animal{//subclasse - filha
+  constructor(pCor, pTamanho, pPeso, pFalar){
+      super(pCor, pTamanho, pPeso)
+  }
+      correr(){
+       super.correr()
+       console.log("passaro")
+     }
      voar(){
         console.log("voar")
     }
 }
 
 class Papagaio extends Passaro {
+  constructor(pCor, pTamanho, pPeso, pFalar){
+      super(pCor, pTamanho, pPeso)
+      this.sabeFalar = pFalar
+  }
   falar(){
     console.log("falar")
   }
@@ -52,8 +63,12 @@ class Papagaio extends Passaro {
 
 // Instância
 
-const cao = new Cao()
-cao.correr()
+// const animal = new Animal("Amarelo", 60, 3)
+// console.log(animal.tamanho + "cm")
+// console.log(animal.peso + "kg")
+
+// const passaro = new Passaro()
+// passaro.correr()
 // passaro = new Passaro()
 //const papagaio = new Papagaio()
 
@@ -74,3 +89,10 @@ cao.latir()
 passaro.correr()
 passaro.voar()
 passaro.latir() */
+
+/*const cao = new Cao("caramelo", 40, 2, 3)
+console.log("cachorro cor " + cao.cor, ", " + "pesa " + cao.peso + "kg" + ", " + "tem " + cao.tamanho +"cm " + "de altura" + ", " + "e " + cao.tamanhoOrelha + "cm de orelha")*/
+// cao.correr()
+
+const papagaio = new Papagaio("verde", 30, 800, "bocó")
+console.log("papagaio cor " + papagaio.cor + ", " + "tem " + papagaio.tamanho + "cm" + ", " + "pesa " + papagaio.peso + "g e fala " + papagaio.sabeFalar )
