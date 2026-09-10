@@ -28,7 +28,7 @@ console.log(`Hoje é ${d}/0${m}/${a}`)
 
 data.setHours(data.getHours() +5) //determina uma hora futura ou passada
 data.setMinutes(data.getMinutes() +55) //determina um minuto futuro ou passado
-data.setSeconds(data.getSeconds() + 1500) determina segundo futuro ou passado
+data.setSeconds(data.getSeconds() + 1500) //determina segundo futuro ou passado
 let h = data.getHours()
 let min = data.getMinutes()
 let s = data.getSeconds()
