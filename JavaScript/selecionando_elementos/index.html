@@ -17,6 +17,14 @@
         <li>Item 2</li>
     </ul>
 
+    <ul>
+        <li class="primeiro">Item 1 alterado</li>
+        <li>Item 2</li>
+    </ul>
+
+    <input type="text" name="nome">
+    <input type="text" name="sobrenome">
+
         <button onclick="executar()">Clique aqui</button>
 
     <script type="text/javascript">
@@ -31,6 +39,20 @@
        /* const obj = document.querySelector('li.primeiro')
        console.log(obj.textContent) */
 
+       //const colecao = document.getElementsByTagName('li')
+        //const obj = document.getElementsByName('nome')
+        const obj = document.querySelectorAll('li.primeiro')
+       /*for(let i=0; i < obj.length; i++){
+            console.log(obj[i].textContent)
+       }*/
+    
+       /*  const lista = Array.from(colecao)
+        const funcao = function(item,i){
+          console.log(item)  
+        }
+        lista.forEach(funcao) */
+
+        console.log(obj.item(1).textContent)
        
 
 
