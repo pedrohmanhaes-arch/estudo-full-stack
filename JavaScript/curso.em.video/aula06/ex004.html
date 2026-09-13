@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font: normal 45pt Arial;
+            background-color: black;
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    
+    <script>
+        var nome = window.prompt('Qual é o seu nome?')
+        document.write(`Olá <strong>${nome}</strong>, seu nome tem ${nome.length} letras`)
+        document.write(` Seu nome em letra maiúscula é <strong>${nome.toUpperCase()}</strong>`)
+        document.write(` Seu nome em letra minuscula é <strong>${nome.toLowerCase()}</strong>`)
+
+        var n1 = 1545.5
+         n1.toFixed(2) 
+         n1.toFixed(2).replace('.', ',')
+         n1.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'}) 
+         n1.toLocaleString('pt-br', {style: 'currency', currency: 'USD'})
+         n1.toLocaleString('pt-br', {style: 'currency', currency: 'EUR'})
+         
+        
+
+    </script>
+
+</body>
+</html>
