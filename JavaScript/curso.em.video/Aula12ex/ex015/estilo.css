@@ -15,7 +15,18 @@ section{
     width: 500px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.52);
+    text-align: left;
 }
+
+#foto {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto;
+}
+
+
 
 footer{
     color: white;
