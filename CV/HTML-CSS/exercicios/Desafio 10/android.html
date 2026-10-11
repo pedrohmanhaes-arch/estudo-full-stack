@@ -4,11 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curiosidades Sobre Tecnologia</title>
+    <style>
+        @font-face {
+            font-family: 'idroid';
+            src: url(Fontes/idroid.otf);
+        }
+
+        body{
+            background-color: lightgreen;
+        }
+        header{
+            background-image: linear-gradient(to bottom , rgb(66, 130, 66), rgb(77, 150, 77), rgb(96, 201, 96), rgb(114, 221, 114));
+            color: white;
+            text-align: center;
+            padding: 5px;
+            font-family: monospace, Tahoma, Geneva, Verdana, sans-serif;
+            font-size: normal   ;
+           
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            text-align: left;
+        }
+
+        main{
+            width: 50%;
+            margin: auto;
+            text-align: justify;
+            background-color: white;
+            padding: 10px;
+        }
+
+        .idroid{
+            font-family: 'idroid';
+           background-image: linear-gradient(to left , rgba(66, 130, 66, 0.349), rgba(96, 197, 96, 0.193), rgba(108, 226, 108, 0), rgba(114, 221, 114, 0.176));
+        }
+
+        footer{
+            width: 50%;
+            margin: auto;
+            text-align: justify;
+            background-color: white;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Curiosidades de Tecnologia</h1>
-        <h2>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um só lugar</h2>
+        <h1>CURIOSIDADES DE TECNOLOGIA</h1>
+        <h3>Tudo aquilo que você sempre quis saber sobre o mundo <br> Tech, em um só lugar</h3>
         <nav>
             <a href="#">Home</a>
             <a href="#">Noticias</a>
@@ -18,21 +63,21 @@
     </header>
 
     <main>
-        <h1>HISTÓRIA DO MASCOTE DO ANDROID</h1>
+        <h1 class="idroid">HISTÓRIA DO MASCOTE DO ANDROID</h1>
         <p>Provavelmente você sabe que o sistema operacional Android, mantido pelo Google é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
 
-        <h2>A primeira versão</h2>
+        <h2 class="idroid">A primeira versão</h2>
         <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado Dan Morrill. Ele conta que abriu o Inkscape (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
 
-        <img src="imagens/dan-droids.png" alt="">
+        <img src="imagens/dan-droids.png" width="680px" alt="">
 
         <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids.</p>
 
-        <h2>Surge um novo mascote</h2>
+        <h2 class="idroid">Surge um novo mascote</h2>
 
         <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa Irina Blok, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.</p>
 
-        <img src="imagens/irina-blok.jpg" alt="">
+        <img src="imagens/irina-blok.jpg" width="665px alt="">
 
         <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o Bugdroid, o novo mascote do Android.</p>
 
