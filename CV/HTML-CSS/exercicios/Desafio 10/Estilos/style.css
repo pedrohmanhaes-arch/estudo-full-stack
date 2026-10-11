@@ -1,0 +1,52 @@
+ @charset "UTF-8";
+
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        @font-face {
+            font-family: 'idroid';
+            src: url(Fontes/idroid.otf);
+        }
+
+        body{
+            background-color: #c5ebd6;
+        }
+        header{
+            background-image: linear-gradient(to top , rgb(43, 83, 43), rgb(77, 150, 77), rgb(96, 201, 96), rgb(114, 221, 114));
+            color: white;
+            text-align: center;
+            padding: 5px;
+            font-family: "Work Sans", sans-serif;
+           
+        }
+        nav{
+            text-align: left;
+            background-color: darkgreen;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            padding: 5px;
+            font-weight: bold;
+            
+        }
+
+        nav > a:hover{
+            color: green;
+        }
+        main{
+            width: 50%;
+            margin: auto;
+            text-align: justify;
+            background-color: white;
+            padding: 10px;
+        }
+
+        .idroid{
+            font-family: 'idroid';
+           background-image: linear-gradient(to left , rgba(137, 226, 137, 0.349), rgba(96, 197, 96, 0.193), rgba(108, 226, 108, 0), rgba(114, 221, 114, 0.176));
+        }
+
+        footer{
+            background-color: darkgreen;
+            text-align: center;
+        }
