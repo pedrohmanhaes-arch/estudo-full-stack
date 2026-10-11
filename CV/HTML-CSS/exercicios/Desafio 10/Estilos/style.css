@@ -40,6 +40,10 @@
             font-family: var(--fonte-padrao);
         }
 
+        a.externo::after{
+            content: '\00A0\1F517';
+        }
+
       
         header{
             background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
@@ -152,11 +156,45 @@
             margin: auto;
         }
 
-        
 
+        aside{
+            background-color: var(--cor1);
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.393);
+        }
+
+        aside > h3{
+            background-color: var(--cor4);
+            color: white;
+            padding: 8px;
+            margin: -10px -10px 0 -10px;
+            border-radius: 10px 10px 0px 0px;
+            
+        }
+
+        aside > ul{
+            list-style-position: inside;
+            columns: 2;
+            list-style-type: '\2714\00A0\00A0';
+        }
 
         footer{
             background-color: var(--cor5);
             color: white;
             text-align: center;
+            text-align: center;
+            font-size: 0.8em;
+            padding: 5px;
+        }
+
+        footer a{
+            color: white;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+
+        footer a:hover{
+            text-decoration: underline;
+            color: var(--cor1);
         }
