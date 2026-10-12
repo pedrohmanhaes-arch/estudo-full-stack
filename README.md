@@ -10,22 +10,22 @@ O objetivo é construir uma base sólida em desenvolvimento web, desde os fundam
 
 ### 1. 🌐 Fundamentos da Web
 
-- [ ] Como a Web funciona
-- [ ] Internet, HTTP e HTTPS
-- [ ] Cliente e servidor
-- [ ] Request e Response
-- [ ] Métodos HTTP
-  - [ ] GET
-  - [ ] POST
-  - [ ] PUT
-  - [ ] PATCH
-  - [ ] DELETE
-- [ ] Status Codes
-- [ ] Headers
-- [ ] Cookies
-- [ ] Sessions
-- [ ] DNS
-- [ ] Domínios e hospedagem
+- [x] Como a Web funciona
+- [x] Internet, HTTP e HTTPS
+- [x] Cliente e servidor
+- [x] Request e Response
+- [x] Métodos HTTP
+  - [x] GET
+  - [x] POST
+  - [x] PUT
+  - [x] PATCH
+  - [x] DELETE
+- [x] Status Codes
+- [x] Headers
+- [x] Cookies
+- [x] Sessions
+- [x] DNS
+- [x] Domínios e hospedagem
 
 ---
 
@@ -33,26 +33,26 @@ O objetivo é construir uma base sólida em desenvolvimento web, desde os fundam
 
 ## 2. HTML
 
-- [ ] Estrutura básica de um documento HTML
-- [ ] Tags semânticas
-- [ ] Títulos e parágrafos
-- [ ] Links
-- [ ] Imagens
-- [ ] Áudio e vídeo
-- [ ] Listas
-- [ ] Tabelas
-- [ ] Formulários
-- [ ] Inputs
-- [ ] Validação de formulários
-- [ ] HTML semântico
-- [ ] Acessibilidade
-- [ ] SEO básico
-- [ ] Meta tags
-- [ ] Estrutura de páginas
+- [x] Estrutura básica de um documento HTML
+- [x] Tags semânticas
+- [x] Títulos e parágrafos
+- [x] Links
+- [x] Imagens
+- [x] Áudio e vídeo
+- [x] Listas
+- [x] Tabelas
+- [x] Formulários
+- [x] Inputs
+- [x] Validação de formulários
+- [x] HTML semântico
+- [x] Acessibilidade
+- [x] SEO básico
+- [x] Meta tags
+- [x] Estrutura de páginas
 
 ### Projeto
 
-- [ ] Criar uma página pessoal utilizando HTML semântico
+- [x] Criar uma página pessoal utilizando HTML semântico
 
 ---
 
@@ -60,45 +60,45 @@ O objetivo é construir uma base sólida em desenvolvimento web, desde os fundam
 
 ### Fundamentos
 
-- [ ] Seletores
-- [ ] Classes e IDs
-- [ ] Cores
-- [ ] Fontes
-- [ ] Unidades
-- [ ] Box Model
-- [ ] Margin
-- [ ] Padding
-- [ ] Border
-- [ ] Width / Height
-- [ ] Display
-- [ ] Position
-- [ ] Z-index
+- [x] Seletores
+- [x] Classes e IDs
+- [x] Cores
+- [x] Fontes
+- [x] Unidades
+- [x] Box Model
+- [x] Margin
+- [x] Padding
+- [x] Border
+- [x] Width / Height
+- [x] Display
+- [x] Position
+- [x] Z-index
 
 ### Layout
 
-- [ ] Flexbox
-- [ ] CSS Grid
-- [ ] Responsividade
-- [ ] Media Queries
-- [ ] Mobile First
-- [ ] Variáveis CSS
-- [ ] Pseudo-classes
-- [ ] Pseudo-elementos
+- [x] Flexbox
+- [x] CSS Grid
+- [x] Responsividade
+- [x] Media Queries
+- [x] Mobile First
+- [x] Variáveis CSS
+- [x] Pseudo-classes
+- [x] Pseudo-elementos
 
 ### Recursos avançados
 
-- [ ] Transições
-- [ ] Animações
-- [ ] Transformações
-- [ ] Gradientes
-- [ ] Sombras
-- [ ] CSS moderno
+- [x] Transições
+- [x] Animações
+- [x] Transformações
+- [x] Gradientes
+- [x] Sombras
+- [x] CSS moderno
 
 ### Projeto
 
-- [ ] Landing Page responsiva
-- [ ] Portfólio pessoal
-- [ ] Clone de uma interface existente
+- [x] Landing Page responsiva
+- [x] Portfólio pessoal
+- [x] Clone de uma interface existente
 
 ---
 
@@ -106,38 +106,38 @@ O objetivo é construir uma base sólida em desenvolvimento web, desde os fundam
 
 ## 4. JavaScript Básico
 
-- [ ] Variáveis
-- [ ] let / const
-- [ ] Tipos de dados
-- [ ] Operadores
-- [ ] Condicionais
-- [ ] if / else
-- [ ] switch
-- [ ] Loops
-- [ ] for
-- [ ] while
-- [ ] for...of
-- [ ] Funções
-- [ ] Arrow Functions
-- [ ] Scope
-- [ ] Arrays
-- [ ] Objetos
-- [ ] Destructuring
-- [ ] Spread / Rest
-- [ ] Template Literals
+- [x] Variáveis
+- [x] let / const
+- [x] Tipos de dados
+- [x] Operadores
+- [x] Condicionais
+- [x] if / else
+- [x] switch
+- [x] Loops
+- [x] for
+- [x] while
+- [x] for...of
+- [x] Funções
+- [x] Arrow Functions
+- [x] Scope
+- [x] Arrays
+- [x] Objetos
+- [x] Destructuring
+- [x] Spread / Rest
+- [x] Template Literals
 
 ---
 
 ## 5. JavaScript Intermediário
 
-- [ ] Array Methods
-  - [ ] map
-  - [ ] filter
-  - [ ] reduce
-  - [ ] find
-  - [ ] some
-  - [ ] every
-  - [ ] sort
+- [x] Array Methods
+  - [x] map
+  - [x] filter
+  - [x] reduce
+  - [x] find
+  - [x] some
+  - [x] every
+  - [x] sort
 - [ ] Callbacks
 - [ ] Higher-Order Functions
 - [ ] Closures
