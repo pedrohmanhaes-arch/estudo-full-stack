@@ -10,6 +10,8 @@ Aqui estão reunidos exercícios, desafios e projetos desenvolvidos para pratica
 
 Construir uma base sólida em **HTML e CSS**, aprendendo a criar páginas web estruturadas, semânticas, responsivas e visualmente organizadas.
 
+<a href=https://pedrohmanhaes-arch.github.io/html-css/CV/HTML-CSS/Medium/>Executar projeto Medium</a>
+
 ---
 
 # 🌐 HTML
