@@ -4,15 +4,17 @@ Repositório destinado aos meus estudos de **HTML e CSS**, realizados durante o 
 
 Aqui estão reunidos exercícios, desafios e projetos desenvolvidos para praticar os fundamentos do desenvolvimento web.
 
+<a href="https://pedrohmanhaes-arch.github.io/html-css/CV/HTML-CSS/Medium/" target="_blank"> Executar Projeto Medium</a>
+
+<a href="https://pedrohmanhaes-arch.github.io/html-css/CV/HTML-CSS/desafios/Desafio%2010/android.html" target="_blank">Executar Projeto Android</a>
+
 ---
 
 ## 🎯 Objetivo
 
 Construir uma base sólida em **HTML e CSS**, aprendendo a criar páginas web estruturadas, semânticas, responsivas e visualmente organizadas.
 
-<a href="https://pedrohmanhaes-arch.github.io/html-css/CV/HTML-CSS/Medium/" target="_blank"> Executar Projeto Medium</a>
 
-<a href="https://pedrohmanhaes-arch.github.io/html-css/CV/HTML-CSS/desafios/Desafio%2010/android.html" target="_blank">Executar Projeto Android</a>
 
 # 🌐 HTML
 
